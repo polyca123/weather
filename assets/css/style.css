@@ -1,0 +1,20 @@
+.side {
+  margin-top: 20px;
+}
+
+.title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* .left {
+  border-right: 2px solid black;
+} */
+
+.card {
+  margin:8px;
+}
+
+.right {
+  justify-items: center;
+}
