@@ -25,9 +25,9 @@
       <!-- Search button -->
       <div class="col-3 left">
         <h3 class="title">Search City:</h3>
-        <label for="city">City: </label>
-        <input type="text" name="city" id="city">
-        <button class="search btn-dark">Search</button>
+        <label>City: </label>
+        <input type="text" id="city">
+        <button class="search btn-dark" id="search">Search</button>
         <!-- Bottom cities -->
         <div class="card side" style="width: 18rem;">
           <div class="card-header">
@@ -44,7 +44,7 @@
       <div class="col-9 right">
         <!-- Searched City display -->
         <div class="card">
-          <div class="card-body">
+          <div class="card-body" id="cities">
             <h1>City (Date)</h1>
             <br>
             <p>Temp:</p>
@@ -103,7 +103,9 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
   <script src="./assets/JS/app.js"></script>
 </body>
 </html>
