@@ -8,4 +8,4 @@ All of the days include temp, humidity and wind.
 
 Link: https://polyca123.github.io/weather/
 
-![weather image](./assets/image/weather.PNG)
+![weather image](./assets/pictures/weather.PNG)
